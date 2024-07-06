@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CardTwo() {
   return (
-    <article className="relative flex-1 bg-white rounded-[10px] w-fit h-full px-4 py-6">
+    <article className="relative max-w-80 flex-1 bg-white rounded-[10px] w-fit h-full px-4 py-6">
     <section className="flex flex-col justify-between h-full gap-4 jus">
       <div className="w-fit h-12 flex gap-[26px] ">
         <div className="flex gap-3">

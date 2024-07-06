@@ -6,17 +6,19 @@ import Try from "../components/Buttons/Try";
 export default function Landing() {
   return (
     <main className=" overflow-hidden text-center">
-      <img className="absolute -z-10 w-max" src="/src/assets/Images/Grid.png" alt=""/>
+      <div className="relative">
+        <img className=" absolute -z-10 w-max" src="/src/assets/Images/Grid.png" alt=""/>
+      </div>
 
-      <div className="absolute -top-40 right-32 -z-20 rounded-full blur-custom bg-[#92C4FE] w-[430px] h-[430px]"></div>
-      <div className="absolute -top-20 -left-15 -z-20 rounded-full blur-custom bg-[#FEA49280] w-[550px] h-[550px]"></div>
+      <div className=" absolute -top-40 right-32 -z-20 rounded-full blur-custom bg-[#92C4FE] w-[430px] h-[430px]"></div>
+      <div className=" absolute -top-20 -left-15 -z-20 rounded-full blur-custom bg-[#FEA49280] w-[430px] h-[430px]"></div>
 
       <section className="py-16">
         <NewPlatform />
-        <aside className="w-full flex flex-col justify-center items-center">
+        <aside className="w-full flex flex-col justify-center items-center py-6 gap-2">
           <div className=" w-10/12 flex flex-col gap-5 justify-center items-center py-6">
-            <h1 className="text-5xl dela-regular ">Best way to sell your digital product</h1>
-            <p className="text-sm dm-medium text-[#626262] w-7/12">
+            <h1 className="text-5xl dela-regular max-w-screen-sm">Best way to sell your digital product</h1>
+            <p className="text-sm dm-medium text-[#626262] w-6/12 ">
               Go from Zero to Hero with simple platform that helps creators like
               you sell their digital products online.
             </p>

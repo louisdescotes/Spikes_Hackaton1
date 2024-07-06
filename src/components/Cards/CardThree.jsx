@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CardThree() {
   return (
-    <article className="relative flex-1 bg-white rounded-[10px] w-fit h-full px-4 py-6">
+    <article className="relative max-w-80 flex-1 bg-white rounded-[10px] w-fit h-full px-4 py-6">
       <section className="flex flex-col gap-4">
         <div className="w-max h-12 flex flex-col gap-[26px] ">
           <div className="flex items-center gap-2">

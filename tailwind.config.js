@@ -17,7 +17,10 @@ export default {
       },
       blur: {
         "custom" : "130px"
-      }
+      },
+      boxShadow: {
+        'custom-light': '0px 3.25px 6.5px 0px #00000012',
+      },
 
     },
   },
