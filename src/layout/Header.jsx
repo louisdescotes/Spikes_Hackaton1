@@ -7,7 +7,6 @@ export default function Header() {
         <div className="">
           <img
             src="/src/assets/Images/fullLogoWhite.png"
-            alt="Logo entreprise"
           />
         </div>
         <div className="flex">
