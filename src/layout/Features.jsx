@@ -34,8 +34,8 @@ export default function Features() {
       </div>
 
       <h3 className="text-4xl dela-regular">Features</h3>
-      <aside className="w-4/5">
-        <div className="grid grid-cols-2 grid-rows-2 gap-y-12  w-full">
+      <aside className="md:w-4/5">
+        <div className="grid md:grid-cols-2 grid-rows-2 gap-y-12  w-full">
           <FeaturesCard
             img="Dollar.png"
             title="Save time & Reduce cost"

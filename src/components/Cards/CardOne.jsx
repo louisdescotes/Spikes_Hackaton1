@@ -1,24 +1,31 @@
 import React from "react";
-import { motion, cubicBezier } from 'framer-motion';
-
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function CardOne() {
+  const { ref, inView } = useInView({
+    triggerOnce: true, 
+    threshold: 0.5,
+  });
+
   const pathVariants = {
-    hidden: { 
-      pathLength: 0 
+    hidden: {
+      pathLength: 0,
     },
-    visible: { 
+    visible: {
       pathLength: 1,
       transition: {
-        duration: .6,
-        ease: [0.12, 0, 0.39, 0] 
-      }
-    }
+        duration: 0.6,
+        ease: [0.12, 0, 0.39, 0],
+      },
+    },
   };
   return (
-    <article className="relative max-w-80 bg-white rounded-[10px] flex-1 w-fit h-full px-4 py-6">
+    <article
+      className="relative max-w-80 bg-white rounded-[10px] flex-1 w-fit h-full px-4 py-6"
+    >
       <span className="w-full flex justify-center mb-4">Mange your store</span>
-      <section className="flex flex-col gap-4">
+      <section ref={ref} className="flex flex-col gap-4">
         <div className="w-fit h-12 flex gap-[26px] ">
           <div className="flex gap-3">
             <div className="h-12 w-12 relative p-4 flex justify-center items-center">
@@ -44,7 +51,10 @@ export default function CardOne() {
             </div>
           </div>
           <div>
-            <svg
+            <motion.svg
+              initial="hidden"
+              animate={inView ? "visible" : "hidden"}
+              variants={pathVariants}
               width="50"
               height="49"
               viewBox="0 0 50 49"
@@ -68,7 +78,7 @@ export default function CardOne() {
                 initial="hidden"
                 animate="visible"
               />
-            </svg>
+            </motion.svg>
           </div>
         </div>
 

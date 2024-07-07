@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <header className="relative top-10">
-      <nav className="bg-dark flex items-center justify-between py-[6px] px-[10px] rounded-[10px] w-4/5 m-auto">
+      <nav className="bg-dark flex items-center justify-between py-[6px] px-[10px] rounded-[10px] w-full md:w-4/5 m-auto">
         <div className="">
           <img
             src="/src/assets/Images/fullLogoWhite.png"
