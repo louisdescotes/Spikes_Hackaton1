@@ -4,9 +4,9 @@ import CardOne from "../components/Cards/CardOne";
 
 export default function Features() {
   return (
-    <section className="flex flex-col gap-14 w-full relative">
+    <section className="flex flex-col gap-14 w-full relative mt-20">
 
-      <div className=" hidden md:flex absolute -right-24 top-20 h-24 items-center justify-center flex gap-3 border border-[#0000000D] bg-[#FDFDFD] rounded-lg p-3 w-fit shadow-custom-light">
+      <div className=" hidden md:flex absolute -right-24 top-20 h-24 items-center justify-center flex gap-3 border border-[#0000000D] bg-[#FDFDFD] rounded-lg p-3 w-fit shadow-custom-light ">
         <div>
           <p className="text-[#314EE7] font-bold text-lg">Try for free</p>
           <p className="text-[#242424] font-semibold text-sm">
