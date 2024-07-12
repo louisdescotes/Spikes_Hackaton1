@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="bg-dark flex items-center justify-between py-[6px] px-[10px] rounded-[10px] w-full md:w-4/5 m-auto">
         <div className="">
           <img
-            src="/public/fullLogoWhite.png"
+            src="/fullLogoWhite.png"
           />
         </div>
         <div className="flex">
