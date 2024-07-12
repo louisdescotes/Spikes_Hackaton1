@@ -38,10 +38,10 @@ export default function CardTwo() {
         </div>
       </div>
       <div className="flex items-center justify-between">
-        <img src="/src/assets/Images/User1.png" alt="" />
-        <img src="/src/assets/Images/User2.png" alt="" />
-        <img src="/src/assets/Images/User3.png" alt="" />
-        <img src="/src/assets/Images/User4.png" alt="" />
+        <img src="/public/User1.png" alt="" />
+        <img src="/public/User2.png" alt="" />
+        <img src="/public/User3.png" alt="" />
+        <img src="/public/User4.png" alt="" />
         <div className="flex items-center justify-center bg-[#E9EEF6] rounded-full w-[41.1px] h-[41.1px] font-medium text-sm">12K+</div>
       </div>
     </section>

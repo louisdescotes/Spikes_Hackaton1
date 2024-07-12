@@ -10,7 +10,7 @@ export default function Landing() {
       <div className="relative">
         <img
           className=" absolute -z-10 w-max"
-          src="/src/assets/Images/Grid.png"
+          src="/public/Grid.png"
           alt=""
         />
       </div>
@@ -69,7 +69,7 @@ export default function Landing() {
             <Try>Try it out</Try>
           </div>
           <div className="flex gap-[10px] my-4 justify-center">
-            <img src="/src/assets/Images/profilUser.png" alt="" />
+            <img src="/public/profilUser.png" alt="" />
             <div className="md:w-3/6 ">
               <p className="text-[#00000080] text-[10px] dm-medium text-start">
                 <span className="text-[#000000]">More than 100+ </span>users are
